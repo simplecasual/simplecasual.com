@@ -25,3 +25,27 @@ body {
   vertical-align: middle;
 }
 
+
+h3 {
+  font-weight: normal;
+}
+
+li {
+  display: block;
+  border-bottom: 1px solid #efefef;
+}
+
+li:first-child {
+  border-top: 1px solid #efefef;
+}
+
+li:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+li a {
+  display: block;
+  color: #111;
+  text-decoration: none;
+  padding: 1rem;
+}
