@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
@@ -13,10 +13,6 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    em-websocket (0.5.0)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.5.3)
-    eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.9.0)
@@ -24,7 +20,6 @@ GEM
     haml (4.0.3)
       tilt
     hike (1.2.3)
-    http_parser.rb (0.5.3)
     i18n (0.6.5)
     kramdown (1.1.0)
     listen (1.2.3)
@@ -55,11 +50,6 @@ GEM
       middleman-core (>= 3.0.0)
       net-sftp
       ptools
-    middleman-livereload (3.1.0)
-      em-websocket (>= 0.2.0)
-      middleman-core (>= 3.0.2)
-      multi_json (~> 1.0)
-      rack-livereload
     middleman-more (3.1.5)
     middleman-sprockets (3.1.4)
       middleman-core (>= 3.0.14)
@@ -73,8 +63,6 @@ GEM
     net-ssh (2.7.0)
     ptools (1.2.2)
     rack (1.5.2)
-    rack-livereload (0.3.15)
-      rack
     rack-test (0.6.2)
       rack (>= 1.0)
     rb-fsevent (0.9.3)
@@ -82,7 +70,6 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    ruby18_source_location (0.2)
     sass (3.2.10)
     sprockets (2.10.0)
       hike (~> 1.2)
@@ -106,6 +93,3 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.1.4)
   middleman-deploy
-  middleman-livereload (~> 3.1.0)
-  ruby18_source_location
-  wdm (~> 0.1.0)
