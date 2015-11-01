@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    maximum-scale=1, minimum-scale=1, user-scalable=0">
     <title>Simple Casual</title>
     <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/6.1.6/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6326032/647188/css/fonts.css" />
@@ -12,8 +14,6 @@
         font-weight: 300;
         font-style: normal;
         -webkit-font-smoothing: antialiased;
-        max-width: 30rem;
-        margin: 4rem auto;
       }
 
       h1, h2, h3, h4, h5, strong, .strong {
@@ -23,15 +23,13 @@
     </style>
   </head>
   <body>
-    <img src="eames-chair.svg">
-    <h1>Simple Casual</h1>
-    <p>An <a href="https://github.com/simplecasual">open</a> company, come <a href="http://slack.simplecasual.com">hang out</a> or <a href="https://twitter.com/icco/lists/simple-casual">say hello</a>.</p>
-    <ul>
-      <li><a href="http://console.fm">Console.fm</a></li>
-      <li><a href="https://hackdesign.org">Hack Design</a></li>
-      <li><a href="https://latteup.com">Latte Up</a></li>
-      <li><a href="http://raverobot.com">Rave Robot</a></li>
-      <li><a href="http://tacoweek.com">Taco Week</a></li>
-    </ul>
+    <div class="flex flex-center" style="min-height:100vh">
+  <div class="center p2 mx-auto">
+    <h1 class="m0 mb1">Simple Casual</h1>
+    <a href="http://simplecasual.slack.com">
+      <img src="eames-chair.svg" width="128">
+    </a>
+  </div>
+</div>
   </body>
 </html>
